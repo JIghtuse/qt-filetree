@@ -7,7 +7,9 @@ Let's see how can we make updating filetree.
 
 Isn't it finished? We have a nice QFileTree with QFileSystemModel. The model
 keeps a cache with file information. The cache is automatically kept up to date
-using the QFileSystemWatcher. What's wrong? The answer is mounting. Try to open
-some directory and then mount something to it. What will you see? Right, the
-empty directory. Well, that's not really right. After application restart we can
-see contents of a directory. What can we do to fix that?
+using the QFileSystemWatcher.
+
+What's wrong? The answer is mounting. Try to open some directory and then mount
+something to it. What will you see? Right, the empty directory. Well, that's
+not really right. After application restart we can see contents of a directory.
+What can we do to fix that?
